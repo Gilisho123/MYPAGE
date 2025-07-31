@@ -1,1 +1,164 @@
 # MYPAGE
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #e98411;
+        }
+
+         header, footer {
+            background-color: #972020;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: rgb(205, 211, 210);
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        main {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+            background-color: rgb(135, 175, 25);
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            border-bottom: 2px solid #835d5d;
+            padding-bottom: 5px;
+        }
+
+        .profile-photo {
+            float: right;
+            margin-left: 20px;
+            border-radius: 8px;
+            width: 200px;
+        }
+
+        ul {
+            list-style-type: square;
+        }
+
+        .social-links a {
+            margin-right: 10px;
+            color: #0d125f;
+        }
+
+        footer p {
+            font-size: 0.9em;
+        }
+
+        @media (max-width: 600px) {
+            .profile-photo {
+                float: none;
+                display: block;
+                margin: 10px auto;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Gilisho Leteipa</h1>
+        <nav>
+            <a href="#about"><strong>About</strong></a>
+            <a href="#career objectives"><strong>Career Objectives</strong></a>
+            <a href="#education"><strong>Education</strong></a>
+            <a href="#work"><strong>Work Experience</strong></a>
+            <a href="#skills"><strong>Skills</strong></a>
+            <a href="#projects"><strong>Projects</strong></a>
+            <a href="#contact"><strong>Contact</strong></a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <img src="https://graph.facebook.com/statisticianletaipa/picture?type=large" alt="My profile picture" class="profile-picture">
+            <p>Hello! I'm <strong>Gilisho Leteipa</strong>, a passionate graduate in STATISTICS and PROGRAMMING and an aspiring SOFTWARE DEVELOPER. I enjoy turning data into meaningful insights and building user-friendly web applications. My goal is to grow in both data analysis and full-stack development.</p>
+        </section>
+
+        <section id="career objectives">
+            <h2>Career Objectives</h2>
+            <p>To develop and establish my career in a conducive and challenging environment, to be able to exploit my full potential and capabilities where my qualifications, knowledge, and experience will be an asset to the organization.</p>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <ul>
+            <li><p>currently learning <strong>Software Engineering</strong> from Power Learn Project Academy</p></li>
+            <li><p>I earned my <strong>Bachelor's Degree of Science in Statistics and Programming</strong> from Machakos University in the year 2023.</p></li>
+            <li><p>I graduated from Nyabisi SDA Boys School with <strong>Kenya Certificate of Secondary Education</strong> in the year 2017.</p></li>
+            <li><p>I got my <strong>Kenya Certificate of Primary Education</strong> from Ole Nkanae Primary School in the year 2013.</p></li>
+            </ul>
+        
+        </section>
+
+        <section id="work">
+            
+            <h2>Work Experience</h2>
+            <ul>
+            <li><p>I am currently at Kenya Revenue Authority for my 1 year Internship since May 2025 under Enforcement Division.</p></li>
+            <li><p>Public Service Commission also gave me a great opportunoty for Internship from March 2025 to April 2025</p></li>
+            <li><p>In January 2022 to March 2022 I was an Attaché at Kenya Revenue Authority (KRA) in the Facilities and Logistics Division</p></li>
+            </ul>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML5, CSS3, JavaScript</li>
+                <li>Python & R for Data Analysis</li>
+                <li>Excel & Power BI</li>
+                <li>Git & GitHub</li>
+                <li>SQL and Databases</li>
+            </ul>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li><strong>Student Performance Dashboard</strong> – Built using Excel and Power BI</li>
+                <li><strong>Personal Portfolio Website</strong> – HTML, CSS, JavaScript</li>
+                <li><strong>Internship Report System</strong> – Developed as a final year project (Python + SQLite)</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            
+            <div class="social-links">
+                <a href="https://linkedin.com/in/gilisho-leteipa-842210374" target="_blank">LinkedIn</a> |
+                <a href="https://github.com/Gilisho123" target="_blank">GitHub</a> |
+                <a href="https://x.com/leteipagilisho" target="_blank">X</a> |
+                <a href="https://www.facebook.com/statisticianletaipa" target="_blank">FaceBook</a> |
+                <a href="https://wa.me/message/IVVKK6GODTC2K1" target="_blank">WhatsApp</a> |
+                <a href="mailto:leteipagilisho@gmail.com" target="_blank">Email</a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Gilisho Leteipa. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
